@@ -1,0 +1,4 @@
+Average number of points: 4423.305882352941
+Max number of points: 25169
+Min number of points: 276
+Total number of objects: 85

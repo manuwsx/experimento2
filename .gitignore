@@ -1,0 +1,19 @@
+# Entornos virtuales
+p12/
+miniconda3/
+__pycache__/
+*.pyc
+
+# Datasets, mallas y resultados
+data/
+resultados_*.json
+ncsd_results.json
+*.npy
+*.obj
+*.ply
+*.xyz
+
+# Modelos y pesos (Checkpoints)
+checkpoints/
+*.pth
+*.pt

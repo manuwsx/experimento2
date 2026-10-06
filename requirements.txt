@@ -1,0 +1,29 @@
+# ==========================================
+# Dependencias Unificadas: Tesis Simetría 3D
+# ==========================================
+
+# 1. Core de Machine Learning y Visión
+# (Nota: Verifica la versión de CUDA en tu servidor usando 'nvcc --version'. 
+# Si es diferente a la 12.1, cambia el índice de la URL abajo, ej: cu118)
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.1.0
+torchvision==0.16.0
+
+# 2. PyTorch3D (Dependencia crítica del detector)
+# Es recomendable usar el instalador precompilado de MiroPsota para evitar compilar C++ horas en el servidor
+--extra-index-url https://miropsota.github.io/torch_packages_builder
+pytorch3d
+
+# 3. Procesamiento de Nubes de Puntos y Mallas
+open3d==0.18.0
+trimesh
+scipy
+point_cloud_utils
+pyvista
+
+# 4. Otras dependencias del detector
+scikit-learn
+torch_geometric
+
+# 5. Evitar conflictos de API en C++
+numpy<2.0.0

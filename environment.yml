@@ -1,0 +1,14 @@
+name: simetria_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Versión de Python recomendada por el detector
+  - python=3.12
+  - pip
+  - pip:
+      # Dependencias listadas en tu requirements.txt con un par de adiciones necesarias
+      - -r requirements.txt
+      - tqdm
+      # Torch-cluster es usualmente requerido por torch_geometric en operaciones de grafos/nubes de puntos
+      - torch-cluster -f https://data.pyg.org/whl/torch-2.1.0+cu121.html

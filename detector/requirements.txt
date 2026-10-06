@@ -1,0 +1,8 @@
+torch torchvision --index-url https://download.pytorch.org/whl/cu129
+pytorch3d==0.7.8+pt2.8.0cu129 --extra-index-url https://miropsota.github.io/torch_packages_builder
+point_cloud_utils
+torch_geometric
+torch-cluster -f https://data.pyg.org/whl/torch-2.8.0+cu129.html
+trimesh
+pyvista
+scikit-learn
