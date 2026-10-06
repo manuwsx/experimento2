@@ -6,8 +6,8 @@
 # (Nota: Verifica la versión de CUDA en tu servidor usando 'nvcc --version'. 
 # Si es diferente a la 12.1, cambia el índice de la URL abajo, ej: cu118)
 --extra-index-url https://download.pytorch.org/whl/cu121
-torch==2.1.0
-torchvision==0.16.0
+torch==2.4.0
+torchvision==0.19.0
 
 # 2. PyTorch3D (Dependencia crítica del detector)
 # Es recomendable usar el instalador precompilado de MiroPsota para evitar compilar C++ horas en el servidor

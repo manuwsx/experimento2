@@ -11,4 +11,4 @@ dependencies:
       - -r requirements.txt
       - tqdm
       # Torch-cluster es usualmente requerido por torch_geometric en operaciones de grafos/nubes de puntos
-      - torch-cluster -f https://data.pyg.org/whl/torch-2.1.0+cu121.html
+      - torch-cluster -f https://data.pyg.org/whl/torch-2.4.0+cu121.html
