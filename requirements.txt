@@ -15,7 +15,7 @@ torchvision==0.19.0
 pytorch3d
 
 # 3. Procesamiento de Nubes de Puntos y Mallas
-open3d==0.18.0
+open3d
 trimesh
 scipy
 point_cloud_utils
